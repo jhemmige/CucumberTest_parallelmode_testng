@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: parallel.ParallelRun
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 63.598 s <<< FAILURE! - in parallel.ParallelRun
+parallel.ParallelRun.runScenario["Forgot Password link", "Optional[Login page feature]"](2)  Time elapsed: 15.697 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //*[@for='RememberMe'??] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@for='RememberMe'??]' is not a valid XPath expression.
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Jayashrees-MacBook-Air.local', ip: 'fe80:0:0:0:80e:eef7:2902:6258%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /var/folders/q2/b983rsb13pn...}, goog:chromeOptions: {debuggerAddress: localhost:56688}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc3e06af7de7a7bb587c45b45c1e9ad6
+*** Element info: {Using=xpath, value=//*[@for='RememberMe'??]}
+

@@ -1,0 +1,51 @@
+1. THis project was created so parallel tests can be run using TESTNG. 
+2. THis is s a copy of Naveen_AUtomation_labs_cucumber... project where Junit is used for test execution. 
+3. Issue with Junit is that threads can be run at feature file level . However, we cannot run tests at scenario level.Testng supports parallel
+execution with multi-threading.
+
+
+4. TEST IS THE TESTRUNNER FILE USED IN THE PROJECT .
+
+package parallel;
+
+import org.junit.runner.RunWith;
+import org.testng.annotations.DataProvider;
+
+import io.cucumber.junit.Cucumber;
+//import io.cucumber.junit.CucumberOptions; - 4a. THIS NEEDS TO ENABLED FOR RUNNING TESTS WITH JUNIT
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions; - 4b. THIS NEEDS TO BE ENABLED FOR RUNING TESTS WITH TESTNG
+
+
+//@RunWith(Cucumber.class) // 4c. TTHIS NEEDS TO ENABLED FOR RUNNING TESTS WITH JUNIT
+4d. //MAKE SURE CUCUMBEROPTIONS IMPORTED IS AS PER TESTNG OR JUNIT
+@CucumberOptions(
+		
+		plugin= {"pretty","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+				"timeline:test-output-thread/"
+				},
+		
+features= "src/test/resources/parallel",
+//features="src/test/resources/Appfeatures/LoginPage.feature",
+
+//features= "src/test/resources/Appfeatures/AdministrationPage.feature",
+glue = {"parallel"},
+dryRun= false, //before running the actual run, every step is created correctly
+monochrome= true //removes unneccessary characters from console window. Refer to  "/Users/jayashreehemmige/Documents/Selenium/Selenium Hybrid Framework_youtube/malformed_characters_in_cucumber_test.png"
+
+)
+
+//4e.THIS IS USED FOR RUNNING PARALLEL TEST USING TESTNG
+
+public class ParallelRun extends AbstractTestNGCucumberTests {
+	
+	@Override
+	@DataProvider(parallel=true)
+	public Object[][] scenarios() {
+		
+		return super.scenarios();
+		
+		
+	}
+
+}

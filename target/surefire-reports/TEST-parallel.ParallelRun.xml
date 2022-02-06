@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="parallel.ParallelRun" time="63.598" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="webdriver.chrome.driver" value="/Users/jayashreehemmige/.cache/selenium/chromedriver/mac64/97.0.4692.71/chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jayashreehemmige/eclipse-workspace/Cucumber_POM_series_TestNGProject_youtube/target/test-classes:/Users/jayashreehemmige/eclipse-workspace/Cucumber_POM_series_TestNGProject_youtube/target/classes:/Users/jayashreehemmige/.m2/repository/io/cucumber/cucumber-java/6.9.0/cucumber-java-6.9.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/cucumber-core/6.9.0/cucumber-core-6.9.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/cucumber-gherkin/6.9.0/cucumber-gherkin-6.9.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.0/cucumber-gherkin-messages-6.9.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/messages/13.2.0/messages-13.2.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/cucumber-plugin/6.9.0/cucumber-plugin-6.9.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/docstring/6.9.0/docstring-6.9.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/jayashreehemmige/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/cucumber-junit/6.9.0/cucumber-junit-6.9.0.jar:/Users/jayashreehemmige/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/jayashreehemmige/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jayashreehemmige/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/jayashreehemmige/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/jayashreehemmige/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/jayashreehemmige/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/jayashreehemmige/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/jayashreehemmige/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/jayashreehemmige/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/jayashreehemmige/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/jayashreehemmige/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/jayashreehemmige/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/jayashreehemmige/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/jayashreehemmige/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jayashreehemmige/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/jayashreehemmige/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/jayashreehemmige/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/jayashreehemmige/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/jayashreehemmige/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/jayashreehemmige/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/jayashreehemmige/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/jayashreehemmige/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/jayashreehemmige/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.2/webdrivermanager-4.2.2.jar:/Users/jayashreehemmige/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/jayashreehemmige/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/jayashreehemmige/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/jayashreehemmige/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/jayashreehemmige/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/jayashreehemmige/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/jayashreehemmige/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/jayashreehemmige/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/jayashreehemmige/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/jayashreehemmige/.m2/repository/tech/grasshopper/extentreports-cucumber6-adapter/2.9.0/extentreports-cucumber6-adapter-2.9.0.jar:/Users/jayashreehemmige/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/jayashreehemmige/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/jayashreehemmige/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/jayashreehemmige/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/jayashreehemmige/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/jayashreehemmige/.m2/repository/tech/grasshopper/extent-pdf-report/1.7.4/extent-pdf-report-1.7.4.jar:/Users/jayashreehemmige/.m2/repository/tech/grasshopper/cucumber-pdf-report/2.2.4/cucumber-pdf-report-2.2.4.jar:/Users/jayashreehemmige/.m2/repository/org/apache/pdfbox/pdfbox/2.0.22/pdfbox-2.0.22.jar:/Users/jayashreehemmige/.m2/repository/org/apache/pdfbox/fontbox/2.0.22/fontbox-2.0.22.jar:/Users/jayashreehemmige/.m2/repository/org/knowm/xchart/xchart/3.8.0/xchart-3.8.0.jar:/Users/jayashreehemmige/.m2/repository/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar:/Users/jayashreehemmige/.m2/repository/de/rototor/pdfbox/graphics2d/0.30/graphics2d-0.30.jar:/Users/jayashreehemmige/.m2/repository/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar:/Users/jayashreehemmige/.m2/repository/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar:/Users/jayashreehemmige/.m2/repository/tech/grasshopper/table-layout/1.2.0/table-layout-1.2.0.jar:/Users/jayashreehemmige/.m2/repository/com/aventstack/klov-reporter/5.0.9/klov-reporter-5.0.9.jar:/Users/jayashreehemmige/.m2/repository/org/mongodb/bson/3.6.4/bson-3.6.4.jar:/Users/jayashreehemmige/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/jayashreehemmige/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/jayashreehemmige/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/jayashreehemmige/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/jayashreehemmige/.m2/repository/tech/grasshopper/htmlextentreporter/1.0.0/htmlextentreporter-1.0.0.jar:/Users/jayashreehemmige/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/jayashreehemmige/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/jayashreehemmige/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/jayashreehemmige/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/jayashreehemmige/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/cucumber-testng/6.9.0/cucumber-testng-6.9.0.jar:/Users/jayashreehemmige/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/jayashreehemmige/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/jayashreehemmige/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/jayashreehemmige/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/jayashreehemmige/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/jayashreehemmige/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/jayashreehemmige/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/jayashreehemmige/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/jayashreehemmige/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/jayashreehemmige/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="Cucumber.options" value="--tags&apos;@regression and not@smoke&apos;"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/jayashreehemmige/eclipse-workspace/Cucumber_POM_series_TestNGProject_youtube/target/surefire/surefirebooter2892385739596880098.jar /Users/jayashreehemmige/eclipse-workspace/Cucumber_POM_series_TestNGProject_youtube/target/surefire 2022-02-06T15-25-55_363-jvmRun1 surefire2789412196328109552tmp surefire_05645538503862144566tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/jayashreehemmige/eclipse-workspace/Cucumber_POM_series_TestNGProject_youtube/target/test-classes:/Users/jayashreehemmige/eclipse-workspace/Cucumber_POM_series_TestNGProject_youtube/target/classes:/Users/jayashreehemmige/.m2/repository/io/cucumber/cucumber-java/6.9.0/cucumber-java-6.9.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/cucumber-core/6.9.0/cucumber-core-6.9.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/cucumber-gherkin/6.9.0/cucumber-gherkin-6.9.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.0/cucumber-gherkin-messages-6.9.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/messages/13.2.0/messages-13.2.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/cucumber-plugin/6.9.0/cucumber-plugin-6.9.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/docstring/6.9.0/docstring-6.9.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/jayashreehemmige/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/cucumber-junit/6.9.0/cucumber-junit-6.9.0.jar:/Users/jayashreehemmige/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/jayashreehemmige/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jayashreehemmige/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/jayashreehemmige/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/jayashreehemmige/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/jayashreehemmige/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/jayashreehemmige/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/jayashreehemmige/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/jayashreehemmige/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/jayashreehemmige/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/jayashreehemmige/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/jayashreehemmige/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/jayashreehemmige/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/jayashreehemmige/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jayashreehemmige/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/jayashreehemmige/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/jayashreehemmige/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/jayashreehemmige/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/jayashreehemmige/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/jayashreehemmige/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/jayashreehemmige/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/jayashreehemmige/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/jayashreehemmige/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.2/webdrivermanager-4.2.2.jar:/Users/jayashreehemmige/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/jayashreehemmige/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/jayashreehemmige/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/jayashreehemmige/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/jayashreehemmige/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/jayashreehemmige/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/jayashreehemmige/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/jayashreehemmige/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/jayashreehemmige/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/jayashreehemmige/.m2/repository/tech/grasshopper/extentreports-cucumber6-adapter/2.9.0/extentreports-cucumber6-adapter-2.9.0.jar:/Users/jayashreehemmige/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/jayashreehemmige/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/jayashreehemmige/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/jayashreehemmige/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/jayashreehemmige/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/jayashreehemmige/.m2/repository/tech/grasshopper/extent-pdf-report/1.7.4/extent-pdf-report-1.7.4.jar:/Users/jayashreehemmige/.m2/repository/tech/grasshopper/cucumber-pdf-report/2.2.4/cucumber-pdf-report-2.2.4.jar:/Users/jayashreehemmige/.m2/repository/org/apache/pdfbox/pdfbox/2.0.22/pdfbox-2.0.22.jar:/Users/jayashreehemmige/.m2/repository/org/apache/pdfbox/fontbox/2.0.22/fontbox-2.0.22.jar:/Users/jayashreehemmige/.m2/repository/org/knowm/xchart/xchart/3.8.0/xchart-3.8.0.jar:/Users/jayashreehemmige/.m2/repository/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar:/Users/jayashreehemmige/.m2/repository/de/rototor/pdfbox/graphics2d/0.30/graphics2d-0.30.jar:/Users/jayashreehemmige/.m2/repository/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar:/Users/jayashreehemmige/.m2/repository/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar:/Users/jayashreehemmige/.m2/repository/tech/grasshopper/table-layout/1.2.0/table-layout-1.2.0.jar:/Users/jayashreehemmige/.m2/repository/com/aventstack/klov-reporter/5.0.9/klov-reporter-5.0.9.jar:/Users/jayashreehemmige/.m2/repository/org/mongodb/bson/3.6.4/bson-3.6.4.jar:/Users/jayashreehemmige/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/jayashreehemmige/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/jayashreehemmige/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/jayashreehemmige/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/jayashreehemmige/.m2/repository/tech/grasshopper/htmlextentreporter/1.0.0/htmlextentreporter-1.0.0.jar:/Users/jayashreehemmige/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/jayashreehemmige/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/jayashreehemmige/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/jayashreehemmige/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/jayashreehemmige/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/jayashreehemmige/.m2/repository/io/cucumber/cucumber-testng/6.9.0/cucumber-testng-6.9.0.jar:/Users/jayashreehemmige/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/jayashreehemmige/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/jayashreehemmige/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/jayashreehemmige/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/jayashreehemmige/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/jayashreehemmige/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/jayashreehemmige/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/jayashreehemmige/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/jayashreehemmige/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/jayashreehemmige/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jayashreehemmige"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/jayashreehemmige/eclipse-workspace/Cucumber_POM_series_TestNGProject_youtube"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/jayashreehemmige/eclipse-workspace/Cucumber_POM_series_TestNGProject_youtube/target/surefire/surefirebooter2892385739596880098.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="user.name" value="jayashreehemmige"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/jayashreehemmige/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/q2/b983rsb13pnb1vmb99g59n500000gn/T/"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="user.dir" value="/Users/jayashreehemmige/eclipse-workspace/Cucumber_POM_series_TestNGProject_youtube"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/jayashreehemmige/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="java.ext.dirs" value="/Users/jayashreehemmige/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="runScenario[&quot;Login page title&quot;, &quot;Optional[Login page feature]&quot;](1)" classname="parallel.ParallelRun" time="14.549">
+    <system-out><![CDATA[
+@sanity
+Scenario: Forgot Password link                       # src/test/resources/parallel/LoginPage.feature:10
+
+@sanity
+Scenario Outline: Customer Added Successfully                                                                # src/test/resources/parallel/AddingCustomer.feature:21
+
+@sanity
+Scenario Outline: Customer Added Successfully                                                                # src/test/resources/parallel/AddingCustomer.feature:20
+
+@sanity
+Scenario: Admin page title                                           # src/test/resources/parallel/acc.feature:9
+
+@sanity
+Scenario Outline: Customer Added Successfully                                                                # src/test/resources/parallel/AddingCustomer.feature:22
+
+@Regression
+Scenario: Login page title                      # src/test/resources/parallel/LoginPage.feature:4
+value of browserchrome
+value of browserchrome
+value of browserchrome
+value of browserchrome
+value of browserchrome
+value of browserchrome
+  Given user is on login page                   # parallel.Login_steps.user_is_on_login_page()
+  Given user is on login page                        # parallel.Login_steps.user_is_on_login_page()
+Your store. Login
+  When user gets the title of the page          # parallel.Login_steps.user_gets_the_title_of_the_page()
+  Then page title should be "Your store. Login" # parallel.Login_steps.page_title_should_be(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SSttaarrting ChroSmtearDtriinvge rC h9r7o.m0eDSriver 97.0.469t.a42t.i679n12g. r7 t(1ai Cd(nehgafrd aoCem7fhe8raD37or78mdie30vD72edrra0i0 2v97aea7r06.7 009a4.6c47016.4e0c926.1.e4e7f661fe90 f2(bf.3a70ad1be0 39fa(4aa072d982e4a3f2ba278a7d88b0d32-87ra8e0fsd7/a0b620a4r0ca71naec66h0-e4fhcef1a0edb6S3set/afa04fr960t49ib223n2@ga{a 0b#9C81h482r2d42o7-ma}rbe)eD8f 8rsodin/-v berredrf -a9srn/7ecb.fhr0-s.a/hn4eb6cra9had-2nsc/pho4-6hre9ta2 .@d237s{51/# 914(26a4d9272}
+e@O)f{ na#ol71yn28  34p77loodc0ra2tha 0e47a5ad063s02/4l
+4c O61nc9eol26ny@en {f#fl1}0o)2b c43aoa7l0}n 9) c4 pooneo2rct2nta  ipnbe3o8c3r8t8to idn3os-6n r8sa5e r1aef
+r sOean/lbl y9al l1ol
+lwoOocenwdaell.d
+yP.  l
+lcePooalcnseaneale sc esct eoiesno ennehes tc htatptirsteo:pn /ssa/:l c/la/hrorcwehoe mradoel.mdl
+rePodilwvreeiedavrs.e.
+ercP .hlsrceehoearms iohemu timst.uepmoesr.: go/hr//tsgtc/ephscrseuo:crm/iue/trcdyirht-riycvoo-mencersod.incrdsiheirvdreoearmtr.iaiucotmhin.rsooo nmrsfgio /urfsm oe.srocu rugsrggui/egstsgyeet-cisuctoorinnisost nyiso-d nceo ornkane stekiipeodeiennpsriga rftoarn icsohu-ngshg eefasdotsri  o/s4un6gs9g e2o@snt{ #ik1oeneCsp hroinon mgke eDCrehiprvionemr egsDa rfCeih.vr
+e2ro4 m7sea})fD er.oin
+v epror ts a4f5e33n9g
+ OCnhlryo mleoDcrailv ecro nsneacftei.o
+.
+ns are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 15468
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 06, 2022 3:26:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 06, 2022 3:26:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 06, 2022 3:26:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 06, 2022 3:26:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 06, 2022 3:26:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 06, 2022 3:26:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Forgot Password link&quot;, &quot;Optional[Login page feature]&quot;](2)" classname="parallel.ParallelRun" time="15.697">
+    <failure message="invalid selector: Unable to locate an element with the xpath expression //*[@for=&apos;RememberMe&apos;??] because of the following error:&#10;SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//*[@for=&apos;RememberMe&apos;??]&apos; is not a valid XPath expression.&#10;  (Session info: chrome=97.0.4692.99)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Jayashrees-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:80e:eef7:2902:6258%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /var/folders/q2/b983rsb13pn...}, goog:chromeOptions: {debuggerAddress: localhost:56688}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cc3e06af7de7a7bb587c45b45c1e9ad6&#10;*** Element info: {Using=xpath, value=//*[@for=&apos;RememberMe&apos;??]}" type="org.openqa.selenium.InvalidSelectorException"><![CDATA[org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //*[@for='RememberMe'??] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@for='RememberMe'??]' is not a valid XPath expression.
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Jayashrees-MacBook-Air.local', ip: 'fe80:0:0:0:80e:eef7:2902:6258%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /var/folders/q2/b983rsb13pn...}, goog:chromeOptions: {debuggerAddress: localhost:56688}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc3e06af7de7a7bb587c45b45c1e9ad6
+*** Element info: {Using=xpath, value=//*[@for='RememberMe'??]}
+]]></failure>
+    <system-out><![CDATA[  Then forgot your password link should be displayed # parallel.Login_steps.forgot_your_password_link_should_be_displayed()
+      org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@for='RememberMe'??] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@for='RememberMe'??]' is not a valid XPath expression.
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Jayashrees-MacBook-Air.local', ip: 'fe80:0:0:0:80e:eef7:2902:6258%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /var/folders/q2/b983rsb13pn...}, goog:chromeOptions: {debuggerAddress: localhost:56688}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc3e06af7de7a7bb587c45b45c1e9ad6
+*** Element info: {Using=xpath, value=//*[@for='RememberMe'??]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.pages.LoginPage.rememberMeisDisplayed(LoginPage.java:44)
+	at parallel.Login_steps.forgot_your_password_link_should_be_displayed(Login_steps.java:39)
+	at ✽.forgot your password link should be displayed(file:///Users/jayashreehemmige/eclipse-workspace/Cucumber_POM_series_TestNGProject_youtube/src/test/resources/parallel/LoginPage.feature:12)
+
+
+    Embedding Forgot_Password_link [image/png 41471 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Admin page title&quot;, &quot;Optional[Admin Page Feature]&quot;](3)" classname="parallel.ParallelRun" time="23.645">
+    <system-out><![CDATA[  Given user has already logged in to application                                                            # parallel.Admin_Page_steps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)
+Dashboard / nopCommerce administration
+  And user is on Admin page                                                                                  # parallel.Admin_Page_steps.user_is_on_admin_page()
+  Given user has already logged in to application                                                            # parallel.Admin_Page_steps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)
+Dashboard / nopCommerce administration
+  And user is on Admin page                                                                                  # parallel.Admin_Page_steps.user_is_on_admin_page()
+  Given user has already logged in to application                    # parallel.Admin_Page_steps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)
+Dashboard / nopCommerce administration
+  Given user is on Admin page                                        # parallel.Admin_Page_steps.user_is_on_admin_page()
+Dashboard / nopCommerce administration
+  When user gets the title of the page                               # parallel.Login_steps.user_gets_the_title_of_the_page()
+  Then page title should be "Dashboard / nopCommerce administration" # parallel.Login_steps.page_title_should_be(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Customer Added Successfully&quot;, &quot;Optional[Customer Page feature]&quot;](4)" classname="parallel.ParallelRun" time="43.871">
+    <system-out><![CDATA[  Given user has already logged in to application                                                            # parallel.Admin_Page_steps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)
+Dashboard / nopCommerce administration
+  And user is on Admin page                                                                                  # parallel.Admin_Page_steps.user_is_on_admin_page()
+  When user gets Customers section and clicks on Customers dropdown and clicks on Customers on the menu item # parallel.Add_New_customer_steps.user_gets_customers_section_and_clicks_on_customers_dropdown_and_clicks_on_customers_on_the_menu_item()
+  When user gets Customers section and clicks on Customers dropdown and clicks on Customers on the menu item # parallel.Add_New_customer_steps.user_gets_customers_section_and_clicks_on_customers_dropdown_and_clicks_on_customers_on_the_menu_item()
+  When user gets Customers section and clicks on Customers dropdown and clicks on Customers on the menu item # parallel.Add_New_customer_steps.user_gets_customers_section_and_clicks_on_customers_dropdown_and_clicks_on_customers_on_the_menu_item()
+  And user clicks on AddNew button                                                                           # parallel.Add_New_customer_steps.user_clicks_on_add_new_button()
+this is the actual title :Add a new customer
+  Then "Add a new customer" form is displayed                                                                # parallel.Add_New_customer_steps.form_is_displayed(java.lang.String)
+  And user clicks on AddNew button                                                                           # parallel.Add_New_customer_steps.user_clicks_on_add_new_button()
+this is the actual title :Add a new customer
+  Then "Add a new customer" form is displayed                                                                # parallel.Add_New_customer_steps.form_is_displayed(java.lang.String)
+  And user clicks on AddNew button                                                                           # parallel.Add_New_customer_steps.user_clicks_on_add_new_button()
+this is the actual title :Add a new customer
+  Then "Add a new customer" form is displayed                                                                # parallel.Add_New_customer_steps.form_is_displayed(java.lang.String)
+  When user fills the form using excel sheet using "customerpage" and rownumber 0                            # parallel.Add_New_customer_steps.user_fills_the_form_using_excel_sheet_using_and_rownumber(java.lang.String,java.lang.Integer)
+  When user fills the form using excel sheet using "customerpage" and rownumber 2                            # parallel.Add_New_customer_steps.user_fills_the_form_using_excel_sheet_using_and_rownumber(java.lang.String,java.lang.Integer)
+  When user fills the form using excel sheet using "customerpage" and rownumber 1                            # parallel.Add_New_customer_steps.user_fills_the_form_using_excel_sheet_using_and_rownumber(java.lang.String,java.lang.Integer)
+  And clicks on Save button                                                                                  # parallel.Add_New_customer_steps.clicks_on_save_button()
+this is the ActualmsgtitleThe new customer has been added successfully.
+  Then "The new customer has been added successfully." message is displayed                                  # parallel.Add_New_customer_steps.message_is_displayed(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Cleaning up unclosed ZipFile for archive /Users/jayashreehemmige/Documents/Selenium/Selenium_projects_downloaded_from_Google/customertestdata.xlsx
+Cleaning up unclosed ZipFile for archive /Users/jayashreehemmige/Documents/Selenium/Selenium_projects_downloaded_from_Google/customertestdata.xlsx
+Cleaning up unclosed ZipFile for archive /Users/jayashreehemmige/Documents/Selenium/Selenium_projects_downloaded_from_Google/customertestdata.xlsx
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Customer Added Successfully&quot;, &quot;Optional[Customer Page feature]&quot;](5)" classname="parallel.ParallelRun" time="44.635">
+    <system-out><![CDATA[  And clicks on Save button                                                                                  # parallel.Add_New_customer_steps.clicks_on_save_button()
+this is the ActualmsgtitleThe new customer has been added successfully.
+  Then "The new customer has been added successfully." message is displayed                                  # parallel.Add_New_customer_steps.message_is_displayed(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Customer Added Successfully&quot;, &quot;Optional[Customer Page feature]&quot;](6)" classname="parallel.ParallelRun" time="46.229">
+    <system-out><![CDATA[  And clicks on Save button                                                                                  # parallel.Add_New_customer_steps.clicks_on_save_button()
+this is the ActualmsgtitleThe new customer has been added successfully.
+  Then "The new customer has been added successfully." message is displayed                                  # parallel.Add_New_customer_steps.message_is_displayed(java.lang.String)
+]]></system-out>
+  </testcase>
+</testsuite>
