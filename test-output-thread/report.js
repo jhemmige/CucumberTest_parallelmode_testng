@@ -1,14 +1,14 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "1a5d7a38-7d0d-4ede-a3de-2cf7587dc3f9",
+    "id": "83561305-431d-4a5b-8a71-11af6808c77d",
     "feature": "Customer Page feature",
     "scenario": "Customer Added Successfully",
-    "start": 1644151901116,
+    "start": 1644164846753,
     "group": 13,
     "content": "",
     "tags": "@sanity,",
-    "end": 1644151926186,
+    "end": 1644164865577,
     "className": "passed"
   }
 ]);

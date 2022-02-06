@@ -1,5 +1,7 @@
 package com.pages;
 
+import java.util.concurrent.TimeUnit;
+
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -94,21 +96,16 @@ return driver.findElement(showcustTitle).getText();
 
 
 //Setting Newletter value
-public String Newsletter(String value)  {
+public String Newsletter(String value) throws InterruptedException  {
 	
 	
 WebElement NewsLetterInput= driver.findElement(NewsletterInput);
 
 NewsLetterInput.click();
 
+driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
-
-try {
-	Thread.sleep(100);
-} catch (InterruptedException e) {
-	
-	e.printStackTrace();
-}
+//Thread.sleep(1000);
 
 if (value.equalsIgnoreCase("Your store name")){
 	

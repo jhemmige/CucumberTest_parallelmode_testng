@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35727" started-at="2022-02-06T12:51:38Z" finished-at="2022-02-06T12:52:14Z">
+  <suite name="Default suite" duration-ms="29128" started-at="2022-02-06T16:27:25Z" finished-at="2022-02-06T16:27:54Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@1700915]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="35727" started-at="2022-02-06T12:51:38Z" finished-at="2022-02-06T12:52:14Z">
+    <test name="Default test" duration-ms="29128" started-at="2022-02-06T16:27:25Z" finished-at="2022-02-06T16:27:54Z">
       <class name="parallel.ParallelRun">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:parallel.ParallelRun@1700915]" name="setUpClass" is-config="true" duration-ms="2116" started-at="2022-02-06T12:51:38Z" finished-at="2022-02-06T12:51:40Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:parallel.ParallelRun@1700915]" name="setUpClass" is-config="true" duration-ms="1036" started-at="2022-02-06T16:27:25Z" finished-at="2022-02-06T16:27:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@1700915]" name="runScenario" duration-ms="25415" started-at="2022-02-06T12:51:40Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-06T12:52:06Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@1700915]" name="runScenario" duration-ms="19061" started-at="2022-02-06T16:27:26Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-06T16:27:45Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:parallel.ParallelRun@1700915]" name="tearDownClass" is-config="true" duration-ms="8137" started-at="2022-02-06T12:52:06Z" finished-at="2022-02-06T12:52:14Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:parallel.ParallelRun@1700915]" name="tearDownClass" is-config="true" duration-ms="8998" started-at="2022-02-06T16:27:45Z" finished-at="2022-02-06T16:27:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
